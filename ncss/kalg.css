@@ -18,21 +18,49 @@ section {
   height: 500px;
 }
 #ara2 {
-  background:url('https://thumbs.dreamstime.com/b/ups-downs-entrepreneur-path-business-concept-businessman-climbing-trend-mountains-risking-capital-modern-flat-82251907.jpg') no-repeat center fixed;
+  background:url('http://startuptipsdaily.com/wp-content/uploads/2016/06/entrepreneurial-process.jpg') no-repeat center fixed;
   background-size: cover;
   height: 500px;
 }
 .baş{
   color: DarkGreen;
   font-family: helvetica;
+  font-size: 70px;
+}
+
+#menu{
+	height: 54px;
+	margin: 0 auto;
+	padding: 0;
+	position: fixed;
+	width: 1800px;
+  height: 60px;
+  background-color: darkolivegreen;
+}
+ul#menu li{
+	list-style: none;
+	position: absolute;
+}
+ul#menu li a{
+	display: block;
+	height: 70px;
+	position: relative;
+}
+#ana{
+color: white;
+left: 615px;
+font-size: 40px;
+font-family: helvetica;
+}
+
+#hak{
+  left: 865px;
+  color: white;
+  font-size: 40px;
+  font-family: helvetica;
+}
+.pr{
+  color: black;
   font-size: 50px;
-
-  nav-container{ background: url('images/nav_bg.jpg') repeat-x 0 0;}
-      .f-nav{ z-index: 9999; position: fixed; left: 0; top: 0; width: 100%;} /* this make our menu fixed top */
-
-  .nav { height: 42px;}
-      .nav ul { list-style: none; }
-      .nav ul li{float: left; margin-top: 6px; padding: 6px; border-right: 1px solid #ACACAC;}
-      .nav ul li:first-child{ padding-left: 0;}
-      .nav ul li a { }
-      .nav ul li a:hover{ text-decoration: underline;}
+  font-family: helvetica;
+}
