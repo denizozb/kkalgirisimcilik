@@ -1,3 +1,38 @@
-#BB1 {
-  color: DarkGreen;
+* {
+  padding: 0;
+  margin:0;
 }
+body {
+  background-color: white;
+}
+section {
+  width: %100;
+  padding: 50px 0px;
+  text-align: center;
+  color: #fff;
+  height: 700px;
+}
+#ara1 {
+  background:url('https://2c7lhqzgg651ytn5b45yen7a-wpengine.netdna-ssl.com/wp-content/uploads/the-arts-culture-and-entrepreneurship-2x.jpg') no-repeat center fixed;
+  background-size: cover;
+  height: 500px;
+}
+#ara2 {
+  background:url('https://thumbs.dreamstime.com/b/ups-downs-entrepreneur-path-business-concept-businessman-climbing-trend-mountains-risking-capital-modern-flat-82251907.jpg') no-repeat center fixed;
+  background-size: cover;
+  height: 500px;
+}
+.baş{
+  color: DarkGreen;
+  font-family: helvetica;
+  font-size: 50px;
+
+  nav-container{ background: url('images/nav_bg.jpg') repeat-x 0 0;}
+      .f-nav{ z-index: 9999; position: fixed; left: 0; top: 0; width: 100%;} /* this make our menu fixed top */
+
+  .nav { height: 42px;}
+      .nav ul { list-style: none; }
+      .nav ul li{float: left; margin-top: 6px; padding: 6px; border-right: 1px solid #ACACAC;}
+      .nav ul li:first-child{ padding-left: 0;}
+      .nav ul li a { }
+      .nav ul li a:hover{ text-decoration: underline;}
